@@ -7,6 +7,5 @@ module.exports = {
     database: "mysql",
     port: 3306,
   },
-  sendgridKey:
-    "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",
+  sendgridKey: "yourkey",
 };
