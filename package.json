@@ -1,0 +1,37 @@
+{
+  "name": "emailsystemsender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "npm run server & npm run client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yishen-sun/EmailSystemSender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yishen-sun/EmailSystemSender/issues"
+  },
+  "homepage": "https://github.com/yishen-sun/EmailSystemSender#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
+    "config-lite": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "path-parser": "^6.1.0",
+    "sendgrid": "^5.2.3",
+    "sequelize": "^6.25.8"
+  }
+}
